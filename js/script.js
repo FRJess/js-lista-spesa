@@ -9,23 +9,25 @@
 //VARIABLES DECLARATION AND INITIALIZATION
 let elements = ['acqua', 'pane', 'pasta', 'mele', 'pomodori', 'uova' ];
 let numberOfElement = elements.length;
-const list = document.getElementById('list');
+const list = document.getElementById('aliment-list');
 let c = 0;
 
 // FOR CYCLE
 // for(let i = 0; i < numberOfElement; i++ ){
 
 //   //element creation
-//   const item = document.createElement('li');
+//   const item = document.createElement('li-group-item');
 //   item.innerHTML = 'Comprare ' + (elements [i]);
+
 //   //add element to list
 //   list.append(item);
 // }
 
 //WHILE CYCLE
 while (c < numberOfElement){
-  const item = document.createElement('li');
+  const item = document.createElement('li-group-item');
   item.innerHTML = 'Comprare ' + (elements [c]);
+
   //add element to list
   list.append(item);
   c++

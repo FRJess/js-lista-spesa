@@ -5,9 +5,8 @@
 }
 
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #E6E6E6;
-  color: white;
+  color: black;
 }
 
 .main{
@@ -17,15 +16,12 @@ body{
   align-items: center;
 }
 
-.container{
+.container-flex{
   position: absolute;
-  width: 50%;
-  height: 50%;
   background-color: #A0C1D1;
 }
 
-.container .aliment-list{
-  color: black;
+/* .container .aliment-list{
   list-style: none;
   margin: 10px;
-}
+} */
