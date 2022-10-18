@@ -6,4 +6,17 @@
 // - Ricordiamoci di inizializzare la variabile di contatore prima dell’inizio del ciclo while
 // - Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all’interno ciclo while
 
-const alimenti []
+//VARIABLES DECLARATION AND INITIALIZATION
+let elements = ['acqua', 'pane', 'pasta', 'mele', 'pomodori', 'uova' ];
+let numberOfElement = elements.length;
+const list = document.getElementById('list');
+
+// FOR CYCLE
+for(let i = 0; i < numberOfElement; i++ ){
+
+  //element creation
+  const item = document.createElement('li');
+  item.innerHTML = 'Comprare ' + (elements [i]);
+  //add element to list
+  list.append(item);
+}
