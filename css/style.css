@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #E6E6E6;
+  color: white;
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: aquamarine;
+}
+
+.container .aliment-list{
+  color: black;
+  list-style: none;
+  margin: 10px;
+}
