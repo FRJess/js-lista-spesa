@@ -7,7 +7,12 @@
 // - Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all’interno ciclo while
 
 //VARIABLES DECLARATION AND INITIALIZATION
-let elements = ['acqua', 'pane', 'pasta', 'mele', 'pomodori', 'uova' ];
+let elements = ['acqua', 
+'pane', 
+'pasta', 
+'mele', 
+'pomodori', 
+'uova' ];
 let numberOfElement = elements.length;
 const list = document.getElementById('aliment-list');
 let c = 0;
@@ -30,5 +35,7 @@ while (c < numberOfElement){
 
   //add element to list
   list.append(item);
+
+  //condition to block cycle
   c++
 }
